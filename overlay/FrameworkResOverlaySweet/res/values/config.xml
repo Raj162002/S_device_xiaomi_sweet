@@ -464,4 +464,8 @@
     
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/bms/fastcharge_mode</string>
+
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+    vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
 </resources>
