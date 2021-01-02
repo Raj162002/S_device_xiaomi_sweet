@@ -112,6 +112,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlaySweet \
     DialerOverlaySweet \
     FrameworkResOverlaySweet \
+    SettingsLibOverlaySweet \
     SettingsProviderOverlaySweet \
     SystemUIOverlaySweet \
     TelephonyOverlaySweet
