@@ -245,6 +245,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-external
 
 PRODUCT_PACKAGES += \
+    GoogleCamera
+
+PRODUCT_PACKAGES += \
     libshim_megvii
 
 PRODUCT_PACKAGES += \
