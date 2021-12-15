@@ -10,6 +10,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # AAPT
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
