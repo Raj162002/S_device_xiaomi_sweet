@@ -411,6 +411,10 @@ PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0-service \
     android.hardware.contexthub@1.0-impl
 
+# Pulse Music
+PRODUCT_PACKAGES += \
+   PulseMusic
+
 # CAS
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service
