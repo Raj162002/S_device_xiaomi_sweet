@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_sweet.mk
+    $(LOCAL_DIR)/superior_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_sweet-eng \
-    aosp_sweet-userdebug \
-    aosp_sweet-user
+    superior_sweet-eng \
+    superior_sweet-userdebug \
+    superior_sweet-user
