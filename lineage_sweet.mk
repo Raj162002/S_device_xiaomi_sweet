@@ -5,8 +5,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit common SuperiorOS configurations
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit common lineageOS configurations
+$(call inherit-product, vendor/lineage/config/common.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -14,7 +14,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
-PRODUCT_NAME := superior_sweet
+PRODUCT_NAME := lineage_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
